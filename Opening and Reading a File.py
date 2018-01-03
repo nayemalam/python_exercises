@@ -23,3 +23,5 @@ new_file = open("Files/fruits.txt", 'r')
 contents = new_file.readlines()
 for i in contents:
     print(len(i) - 1)
+
+print("Duidz")
